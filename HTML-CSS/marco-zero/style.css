@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+}
+
+header{
+    height: 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(24, 29, 59);
+}
+
+h1{
+    color: white;
+    margin-left: 50px;
+    font-size: 35px;
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    list-style-type: none;
+    color: rgb(100, 180, 255);
+    margin-right: 50px;
+    font-size: 12px;
+}
+
+#foto1{
+    margin-left: 50px;
+    margin-top: 50px;
+    width: 35%;
+    border-radius: 30px;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#foto2{
+    width: 20%;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+#texto{
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 50px;
+    margin-top: 50px;
+    color:rgb(24, 29, 59);
+    font-size: 17px;
+}
+
+div{
+    margin-left: 50px;
+    margin-top: 50px;
+    background-color: rgb(73, 92, 201);
+    height: 180px;
+    width: 35px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(24, 29, 59);
+    height: 5vw;
+    margin-top: 65px;
+}
+
+#veja-mais{
+    text-align: center;
+    color: rgb(24, 29, 59);
+    margin-top: 36px;
+}
+
+#outros-pontos{
+    border-style: none;
+    background-color: white;
+}
+
+#outra-pag{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

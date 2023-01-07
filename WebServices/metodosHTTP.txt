@@ -1,0 +1,30 @@
+// Métodos HTTP e suas definições:
+
+GET: É a requisição mais comum de todas. Ela solicita o envio dos objetos web de um determinado recurso, que pode ser um arquivo html, xml, json, etc.
+
+POST: Também bastante corriqueiro. O método POST é utilizado quando queremos criar um recurso, frequentemente causando uma mudança no servidor.
+
+PUT: O método PUT substitui todas as atuais representações do recurso de destino por outras desejadas. Se o recurso já existir, ele deve ser atualizado. Se não existir, pode ser criado.
+
+DELETE: Como o próprio nome já diz, apaga um recurso especificado.
+
+HEAD: O método HEAD solicita uma resposta de forma idêntica ao método GET, porém sem conter o corpo da resposta, somente o cabeçalho.
+
+TRACE: Funciona como um teste devolvendo a mesma requisição que for enviada veja se houve mudança e/ou adições feitas por servidores intermediários.
+
+OPTIONS: Retorna os métodos HTTP suportados pelo servidor para a URL especificada.
+
+PATCH: O método PATCH é utilizado para aplicar modificações parciais em um recurso.
+
+CONNECT: O método CONNECT estabelece uma comunicação com o servidor identificado pelo recurso de destino.
+
+Exemplo de requisição GET:
+GET /entendendo-o-net-core-parte-3-o-coreclr/ HTTP/1.1  
+User-Agent: Mozilla/4.0 (compatible; MSIE5.01; Windows NT)  
+Host: http://gabsferreira.com  
+Connection: Keep-Alive 
+
+
+// WSDL - Web Services Description Language
+
+Linguagem baseada em XML. É um padrão de mercado para programar Web Services de um jeito que elimine ao máximo a necessidade de comunicação entre as partes envolvidas em uma integração de dados. Ele normalmente é encontrado quando acrescentarmos “?wsdl” ao final da URL onde o Web Service está hospedado. 

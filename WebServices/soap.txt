@@ -1,0 +1,27 @@
+// Requisição: Momento em que uma empresa usuária de um servidor faz o pedido de dados de um cliente por meio do padrão SOAP. A tag Envelope é a raiz, pai ou mãe de todas as outras e identifica o tipo de documento, a tag Header poderia ser usada para informações de segurança, a tag Body é obrigatória e tem todo o conteúdo da ação.
+
+<soap: Envelope xmlns:soap="https://schemasxmlsoap.azurewebsites.net/soap/envelope/">
+    <soap: Header/>
+    <soap: Body xmlns:m="https://empresa.com.br/dadosCliente">
+        <m: dadosClienteRequest>
+            <m: rg> 123456789 </m: rg>
+        </m: dadosClienteRequest>
+    <soap: Body/>
+</soap: Envelope>
+
+//Resposta: Momento em que o servidor recebe a chamada, faz uma consulta no banco de dados e retorna os dados identificados, detalhe na tag Fault para caso venham ocorrer erros que sejam explicados para o cliente.
+
+<soap: Envelope xmlns:soap="https://schemasxmlsoap.azurewebsites.net/soap/envelope/">
+    <soap: Header/>
+    <soap: Body xmlns:m="https://empresa.com.br/dadosCliente">
+        <m: dadosClienteResponse>
+            <m: nome> Luis Felipe Silva de Melo </m: nome>
+            <m: endereço> Rua Canal do Panamá, 100, Petrolina </m: endereço>
+            <m: telefone> +5575998003884 </m: telefone>
+                <soap: Fault>
+                    <faultcode>soap: Client</faultcode>
+                    <faultstring>ERRO! RG não encontrado</faultstring>
+                </soap: Fault>
+        </m: dadosClienteResponse>
+    <soap: Body/>
+</soap: Envelope>

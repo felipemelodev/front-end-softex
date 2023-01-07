@@ -1,0 +1,10 @@
+{
+    "funcionarios":[
+        {
+            "id": 24651,
+            "nome": "LUIS FELIPE SILVA DE MELO",
+            "cargo": "DEV",
+            "salario": 59.754
+        }
+    ]
+}

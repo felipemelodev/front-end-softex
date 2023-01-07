@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+    background-color: rgb(229, 231, 240);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3259a8;
+    width: 100vw;
+    height: 8vw;
+}
+
+img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 60px;
+}
+
+h1{
+    display: flex;
+    color: white;
+    font-size: 32px;
+}
+
+#entrada{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: -50px;
+    width: 600px;
+    height: 300px;
+}
+
+#texto{
+    color: #1e3f80;
+}
+
+#salario{
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    width: 450px;
+    height: 30px;
+    background-color: rgb(249, 250, 255);
+    border-radius: 5px;
+    border: 2px solid #1e3f80;
+}
+
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-top: 140px;
+    width: 450px;
+    height: 50px;
+    background-color: #3259a8;
+    color: white;
+    border-style: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #3863b9;
+}
+
+table{
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 450px;
+}
+
+td{
+    margin-top: 5px;
+}
+
+.esquerda{
+    display: flex;
+    color: #68738a;
+}
+
+.direita{
+    color: #3259a8;
+}

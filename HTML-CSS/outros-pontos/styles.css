@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+}
+
+header{
+    height: 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(24, 29, 59);
+}
+
+h1{
+    color: white;
+    margin-left: 50px;
+    font-size: 35px;
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    list-style-type: none;
+    color: rgb(100, 180, 255);
+    margin-right: 50px;
+    font-size: 12px;
+}
+
+#base{
+    display: flex;
+    justify-content: space-between;
+}
+
+#praca{
+    width: 70%;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+}
+
+#centro{
+    width: 63%;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 50px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(24, 29, 59);
+    height: 5vw;
+    margin-top: 65px;
+}
+
+#titulo-praca{
+    margin-top: 30px;
+    color:rgb(24, 29, 59);
+    margin-left: 50px;
+}
+
+#titulo-centro{
+    margin-top: 30px;
+    color:rgb(24, 29, 59);
+    margin-right: 50px;
+}
+
+#texto-praca{
+    width: 70%;
+    margin-left: 50px;
+}
+
+#texto-centro{
+    width: 70%;
+    margin-right: 50px;
+}
